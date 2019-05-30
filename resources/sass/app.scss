@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Define your gradient here
+// find a gradient matching your branding
+.gradient {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
