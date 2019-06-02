@@ -4,8 +4,12 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Tailwind
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
 
 // Define your gradient here
 // find a gradient matching your branding
