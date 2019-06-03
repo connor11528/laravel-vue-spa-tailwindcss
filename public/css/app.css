@@ -7551,8 +7551,12 @@ video {
   z-index: auto;
 }
 
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .gradient {
-  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  background: linear-gradient(90deg, crimson 0%, darkslateblue 100%);
 }
 
 @media (min-width: 640px){
