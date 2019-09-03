@@ -1,21 +1,30 @@
 import Welcome from './pages/Welcome.vue';
 import Login from './pages/Login.vue';
 import Apply from './pages/Apply.vue';
+import Employers from './pages/Employers.vue';
 
 export default {
   mode: 'history',
   routes: [
     {
       path: '/',
-      component: Welcome
+      component: Welcome,
+      name: 'welocome'
     },
     {
       path: '/login',
-      component: Login
+      component: Login,
+      name: 'login'
     },
     {
-      path: '/candidates',
-      component: Apply
+      path: '/apply',
+      component: Apply,
+      name: 'apply'
+    },
+    {
+      path: '/employers',
+      component: Employers,
+      name: 'employers'
     }
   ]
 };

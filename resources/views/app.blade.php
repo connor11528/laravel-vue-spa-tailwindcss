@@ -19,6 +19,8 @@
     <body>
 
         <div id="app" class="leading-normal tracking-normal text-white gradient">
+            <nav-bar-component></nav-bar-component>
+
             <router-view></router-view>
         </div>
 

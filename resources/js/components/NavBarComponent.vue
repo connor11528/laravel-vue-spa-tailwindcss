@@ -30,8 +30,8 @@
             </router-link>
           </li>
         </ul>
-        <router-link to="/candidates" id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">
-          Sign up
+        <router-link to="/apply" id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">
+          Create account
         </router-link>
       </div>
     </div>

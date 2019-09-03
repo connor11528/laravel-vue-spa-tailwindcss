@@ -11,9 +11,9 @@
         <p class="leading-normal text-2xl mb-8">Find tech companies and new job opportunities in the Bay Area.</p>
 
         <div class="inline-flex">
-          <a class="mx-auto hover:underline bg-yellow-400 text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg mr-8 cursor-pointer">Hire with Employbl</a>
+          <router-link to="/employers" class="mx-auto hover:underline bg-yellow-400 text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg mr-8 cursor-pointer">Hire with Employbl</router-link>
 
-          <a class="mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg cursor-pointer">Find a job</a>
+          <router-link to="/apply" class="mx-auto hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg cursor-pointer">Discover new opportunities</router-link>
         </div>
 
       </div>

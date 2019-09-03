@@ -1,7 +1,5 @@
 <template>
   <div id="welcome-page">
-    <nav-bar-component></nav-bar-component>
-
     <hero-component></hero-component>
 
     <wave-svg-component-top></wave-svg-component-top>
@@ -21,7 +19,6 @@
   </div>
 </template>
 <script>
-  import NavBarComponent from '../components/NavBarComponent.vue';
   import HeroComponent from '../components/HeroComponent.vue';
   import WaveSvgComponentTop from '../components/WaveSvgComponentTop.vue'
   import StoryComponent from '../components/StoryComponent.vue';
@@ -33,7 +30,6 @@
 
   export default {
     components: {
-      NavBarComponent,
       HeroComponent,
       WaveSvgComponentTop,
       StoryComponent,
